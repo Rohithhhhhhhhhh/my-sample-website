@@ -11,7 +11,7 @@ pipeline{
         stage(build){
             steps{
                 sh "ls"
-                sh "cd my-sample-website ; mvn clean install"
+                sh "mvn clean install"
             }
         }
         stage(deploy){
