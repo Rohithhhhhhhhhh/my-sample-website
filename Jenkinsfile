@@ -5,7 +5,7 @@ pipeline{
             steps{
                 sh "pwd"
                 sh "ls"
-                sh "cd my-sample-website ; git pull https://github.com/Rohithhhhhhhhhh/my-sample-website.git"
+                sh "git pull https://github.com/Rohithhhhhhhhhh/my-sample-website.git"
             }
         }
         stage(build){
